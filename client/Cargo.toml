@@ -1,0 +1,11 @@
+[package]
+name = "client"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tungstenite = { workspace = true }
+tokio-tungstenite = { workspace = true }
+tokio = { workspace = true, features = ["full"] }
+futures-util = { workspace = true }
+futures-channel = { workspace = true }
